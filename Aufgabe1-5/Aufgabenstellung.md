@@ -1,18 +1,23 @@
-# Die Kunst der Fuge
+# Dreiecke zählen
 
-Ilona besitzt einen riesigen Haufen Holzklötzchen: Diese haben alle dieselbe Höhe und Tiefe,
-aber verschiedene Längen.
-Ilona möchte eine Mauer bauen. Jede Reihe der Mauer soll aus n Klötzchen bestehen, die die
-Längen 1 bis n haben und lückenlos aneinander liegen. Die Stellen zwischen den Klötzchen hei-
-ßen Fugen. Ilona möchte, dass in der fertigen Mauer niemals zwei Fugen übereinander liegen,
-selbst wenn sich mehrere Reihen dazwischen befinden. Außerdem soll ihre Mauer möglichst
-hoch sein.
+![Beispiel](Beispiel.png)
 
-Für n = 4 gelingt es ihr recht schnell, eine Mauer mit drei Reihen zu bauen:
-![DemoMauer](DemoMauer.png)
+Janina hat von ihrer Freundin Nadine ein Rätsel aus dem Internet zugeschickt bekommen: Wie viele Dreiecke sind in dieser Zeichnung zu sehen? Nachdem Janina eine Weile Dreiecke gezählt hat, will sie ihr Ergebnis im Internet nachprüfen. Sie findet aber keine Lösung, sondern nur weitere Rätsel dieser Art. Da sie sich nicht jedes Mal erneut ans Zählen machen will, überlegt sie, ob sich solche Rätsel mit einem Computer lösen lassen.
+
+## Aufgabe 3
+Versetze dich in Janinas Lage und schreibe ein Programm, das die Dreiecke in einer Rätsel-Zeichnung zählt. Eine Zeichnung besteht aus einigen Strecken. Du kannst davon ausgehen, dass keine zwei Strecken auf derselben Geraden liegen und dass sich nie mehr als zwei Strecken im gleichen Punkt schneiden. In der obigen Zeichnung sind übrigens neun Dreiecke zu finden.
 
 
-## Aufgabe
-Hilf Ilona, indem du ein Programm schreibst, das nach Eingabe von n eine nach ihren Vorgaben
-konstruierte, möglichst hohe Mauer ausgibt. Für n = 10 sollte dein Programm eine Mauer der
-Höhe 6 ausgeben können. Wie hoch werden die Mauern deines Programms für größere n?
+Bei dieser Aufgabe besteht eine Beispieleingabe aus einer Menge an Strecken.
+
+Die Dateien sehen jeweils so aus:
+- In der ersten Zeile steht die Anzahl der Strecken.
+- In jeder folgenden Zeile sind die Endpunkte der Strecken angegeben. Jede Zeile enthält also
+    - die x-Koordinate von Endpunkt 1
+    - die y-Koordinate von Endpunkt 1
+    - die x-Koordinate von Endpunkt 2
+    - die y-Koordinate von Endpunkt 2
+
+Die Koordinatenwerte sind als Gleitkommazahlen (float) angegeben.
+
+Die Aufgabenstellung fordert, dass dein Programm Dreiecke zählt. Als Ausgabe genügt also jeweils eine Zahl. Es ist aber besser, wenn dein Programm auch die gefundenen Dreiecke ausgibt; dann ist es leichter, das Ergebnis zu überprüfen. Eine grafische Ausgabe ist sicher besonders überzeugend, aber eine Textdatei ist auch gut.
