@@ -1,4 +1,4 @@
-# Aufgabe 3: Quo vadis, Quax?
+# Quo vadis, Quax?
 
 In einer abgelegenen und unwegsamen Gegend will Quax die Fähigkeiten seines neuen Quadcopters ausprobieren. Da wird aus dem Spiel Ernst: Ein Tornado mit anschließender Überschwemmung vernichtet seine Essenvorräte, so dass er seinen Urlaub abbrechen und sofort die
 lange Wanderung zurück zur einzigen Stadt der Provinz antreten muss. Außerdem hat sich die
